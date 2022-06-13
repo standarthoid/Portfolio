@@ -6,3 +6,6 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
+.header {
+  background-image: url("sources/Header_Hankemacht-01.png");
+}
