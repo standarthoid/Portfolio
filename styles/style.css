@@ -3,6 +3,15 @@
   --text-font-family: "Poppins", sans-serif;
   --branding-color: #9c756f;
 }
+.a {
+  color: black;
+}
+.a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
 h1 {
   font-family: var(--main-font-family);
   text-align: center;
@@ -15,10 +24,27 @@ h2 {
   font-weight: 400;
   margin-top: 24px;
 }
-h3 {
+h3,
+.about-page {
   font-family: var(--main-font-family);
   font-size: 64px;
   font-weight: 700;
+}
+.about-page {
+  text-align: left;
+  margin-top: 70px;
+}
+.about-page-subtitle {
+  font-family: var(--text-font-family);
+  font-weight: 700;
+  font-size: 18px;
+  text-align: left;
+}
+.about-page-text {
+  font-family: var(--text-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 a:hover {
   background-color: var(--branding-color);
@@ -37,6 +63,13 @@ a:hover {
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 80px 40px;
+}
+.mailto {
+  text-align: center;
+  margin: 30px;
+  font-family: var(--text-font-family);
+  font-weight: 500;
+  font-size: 24px;
 }
 .button {
   display: block;
@@ -98,4 +131,125 @@ a:hover {
   padding: 18px 46px;
   border-radius: 4px;
   border: 1px solid #9c756f;
+}
+.my-image {
+  max-width: 100%;
+}
+.my-image-col {
+  margin-top: 200px;
+  margin-left: 60px;
+}
+
+.work-inquiry-head {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 49px 119px 0;
+}
+.work-inquiry-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 18px 119px;
+  text-align: left;
+}
+.work-inquiry-1 {
+  background-color: #efddda;
+  display: block;
+  margin: 30px auto;
+  height: 250px;
+  border-top-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+}
+.work-inquiry-2 {
+  background-color: #efddda;
+  display: block;
+  margin: 30px auto;
+  height: 250px;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+}
+.lets-talk-btn {
+  text-align: center;
+  background-color: white;
+  color: #9c756f;
+  padding: 18px 46px;
+  border-radius: 4px;
+  border: 1px solid #9c756f;
+  margin: 100px 150px;
+}
+@media (max-width: 1199.98px) {
+  .about-page {
+    text-align: center;
+  }
+  .about-page-subtitle {
+    text-align: center;
+  }
+  .about-page-text {
+    text-align: center;
+  }
+  .projects-button {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .my-image-col {
+    display: block;
+    margin: 0 auto;
+  }
+  .work-inquiry-1,
+  .work-inquiry-2 {
+    background-color: #efddda;
+    display: block;
+    margin: 30px auto;
+    height: 320px;
+    border-top-right-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+  }
+}
+@media (max-width: 991.98px) {
+  .lets-talk-btn {
+    display: block;
+    background-color: white;
+    color: #9c756f;
+    padding: 18px 46px;
+    border-radius: 4px;
+    border: 1px solid #9c756f;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .work-inquiry-1 {
+    margin-top: 30px;
+    margin-bottom: 0;
+    border-top-right-radius: 4px 4px;
+    border-top-left-radius: 4px 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 150px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .work-inquiry-2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+  }
+  .work-inquiry-head {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+  }
+  .work-inquiry-text {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+  }
 }
