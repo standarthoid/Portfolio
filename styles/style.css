@@ -30,9 +30,13 @@ h3,
   font-size: 64px;
   font-weight: 700;
 }
-.about-page {
+.subpages-heading {
   text-align: left;
-  margin-top: 70px;
+  margin-top: 259px;
+  font-size: 64px;
+}
+.portfolio-heading {
+  margin-bottom: 103px;
 }
 .about-page-subtitle {
   font-family: var(--text-font-family);
@@ -136,7 +140,7 @@ a:hover {
   max-width: 100%;
 }
 .my-image-col {
-  margin-top: 200px;
+  margin-top: 459px;
   margin-left: 60px;
 }
 
@@ -176,8 +180,51 @@ a:hover {
   border: 1px solid #9c756f;
   margin: 100px 150px;
 }
+.background-portfolio-left {
+  background-color: #efddda;
+  padding: 50px 50px;
+  margin-right: 40px;
+  border-radius: 4px;
+  max-width: 50%;
+}
+.background-portfolio-right {
+  background-color: #efddda;
+  padding: 50px 50px;
+  border-radius: 4px;
+  max-width: 50%;
+}
+.portfolio-left {
+  padding: 40px 50px;
+  max-width: 50%;
+  margin-right: 40px;
+}
+.portfolio-right {
+  padding: 40px 50px;
+  max-width: 50%;
+}
+.links-portfolio {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+  color: black;
+  font-family: --var(text-font-family)
+  font-size: 24px;
+  font-weight: 700;
+}
+.links-portfolio:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black!important;
+}
+.description-work {
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+   font-family: --var(text-font-family);
+   font-size: 14px;
+}
 @media (max-width: 1199.98px) {
-  .about-page {
+  .subpages-heading {
     text-align: center;
   }
   .about-page-subtitle {
