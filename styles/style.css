@@ -63,6 +63,7 @@ a:hover {
   background-color: var(--branding-color);
   color: white !important;
 }
+
 .p {
   font-family: var(--text-font-family);
   font-weight: 700;
@@ -145,6 +146,17 @@ a:hover {
   border-radius: 4px;
   border: 1px solid #9c756f;
 }
+.button3 {
+  display: block;
+  text-align: center;
+  max-width: 30%;
+  margin: 49px auto;
+  background-color: white;
+  color: #9c756f;
+  padding: 18px 46px;
+  border-radius: 4px;
+  border: 1px solid #9c756f;
+}
 .my-image {
   max-width: 100%;
 }
@@ -203,6 +215,22 @@ a:hover {
   margin: 18px 119px;
   text-align: left;
 }
+.work-inquiry-home1 {
+  background-color: #efddda;
+  display: block;
+  margin: 30px auto;
+  height: 320px;
+  border-top-left-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+}
+.work-inquiry-home2 {
+  background-color: #efddda;
+  display: block;
+  margin: 30px auto;
+  height: 320px;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+}
 .work-inquiry-1 {
   background-color: #efddda;
   display: block;
@@ -227,7 +255,16 @@ a:hover {
   padding: 18px 46px;
   border-radius: 4px;
   border: 1px solid #9c756f;
-  margin: 100px 150px;
+  margin: 90px 150px;
+}
+.lets-talk-btn-home {
+  text-align: center;
+  background-color: white;
+  color: #9c756f;
+  padding: 18px 46px;
+  border-radius: 4px;
+  border: 1px solid #9c756f;
+  margin: 130px 150px;
 }
 .background-portfolio-left {
   background-color: #efddda;
@@ -257,9 +294,6 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   color: black;
-  font-family: --var(text-font-family);
-  font-size: 24px;
-  font-weight: 700;
 }
 .links-portfolio:hover {
   text-decoration: none;
@@ -348,8 +382,16 @@ a:hover {
   }
 }
 @media (max-width: 991.98px) {
+  .p {
+    margin-top: 120px;
+  }
+  .about-page-heading {
+    margin-top: 120px;
+    text-align: center;
+  }
   .subpages-heading {
     display: block;
+    margin-top: 120px;
     margin-left: 0;
     text-align: center;
   }
@@ -401,5 +443,10 @@ a:hover {
   .my-image-col {
     display: block;
     margin: 0 auto;
+  }
+}
+@media (max-width: 767.98px) {
+  .about-page-heading {
+    text-align: center;
   }
 }
